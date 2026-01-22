@@ -43,7 +43,7 @@ CISA, CISSP, CISM, CompTIA Security+,"/>
 <style>
 /* --- Base & Reset --- */
 * {margin:0; padding:0; box-sizing:border-box; scroll-behavior:smooth;}
-body {font-family:'Roboto',sans-serif; line-height:1.6; background:#f4f7f9; color:#333; transition: background 0.3s, color 0.3s;}
+body {font-family:'Roboto',sans-serif; line-height:1.6; background: #f4f7f9; color:#333; transition: background 0.3s, color 0.3s;}
 a {text-decoration:none; color:#007BFF; transition: color 0.3s;}
 a:hover {color:#0056b3;}
 h1,h2,h3 {color:#222222;}
@@ -59,7 +59,7 @@ nav {position:fixed; top:0; left:0; width:100%; background:#073470; color:#fff; 
 nav ul {display:flex;}
 nav ul li {list-style:none; margin:0 15px;}
 nav ul li a {color:#fff; padding:15px 0; display:block; font-weight:500; transition: color 0.3s; border-bottom:2px solid transparent;}
-nav ul li a:hover, nav ul li a.active {color:#00bcd4; border-bottom:2px solid #00bcd4;}
+nav ul li a:hover, nav ul li a.active {color: #fff; #00bcd4; border-bottom:2px solid #fff; #00bcd4;}
 
 
 /* --- Header --- */
@@ -71,7 +71,7 @@ header p {font-size:1.2em; color:#a0b9d1; animation: fadeInUp 1s;}
 .top-links a:hover {color:#00bcd4;}
 
 /* --- Dark Mode Toggle --- */
-.dark-mode-toggle {position:absolute; top:20px; right:20px; cursor:pointer; padding:8px 12px; background:#fff; color:#000; border-radius:5px; font-weight:500; transition: background 0.3s;}
+.dark-mode-toggle {position:absolute; top:20px; right:20px; cursor:pointer; padding:8px 12px; background: #f4f7f9; color:#000; border-radius:5px; font-weight:500; transition: background 0.3s;}
 .dark-mode-toggle:hover {background:grey;}
 
 /* --- Cards --- */
@@ -122,7 +122,7 @@ body.dark-mode .progress-fill {background:#00bcd4;}
     height: 160px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #00bcd4;
+    border: 4px solid #007bff; #00bcd4;
     box-shadow: 0 10px 25px rgba(0,0,0,0.3);
     transition: 
         transform 0.4s ease,
@@ -180,7 +180,7 @@ body.dark-mode .progress-fill {background:#00bcd4;}
 
 /* --- Header Section --- */
 header {
-    background:#073470;
+    background: linear-gradient(135deg, #007bff, #0056b3); /* 073470; */
     color:#fff;
     padding:120px 20px 40px;  /* Desktop padding */
     text-align:center;
@@ -202,21 +202,21 @@ body h1 {
    color: grey;
 }
 body h2 {
-    color: grey;
+    color: #007bff; #fff;
 }
 body.dark-mode body h2 {
     color: #00bcd4;
 }
 
 body h3 {
-    color: #00bcd4; 
+    color: #007bff; #00bcd4; 
 }
 body h4 {
-    color: grey; 
+    color: #fff; #00bcd4; 
 }
 
 body h5 {
-    color: grey; 
+    color: #fff; 
 }
 
 
@@ -343,9 +343,9 @@ body h5 {
 }
 
 /* Brand colors */
-.circle-social-buttons a.youtube { background-color: #073470;}  /* #FF0000; */
-.circle-social-buttons a.linkedin { background-color: #073470;}  /* #0A66C2; */
-.circle-social-buttons a.facebook { background-color: #1877F2; }
+.circle-social-buttons a.youtube { background-color: #007bff; #073470;}  /* #FF0000; */
+.circle-social-buttons a.linkedin { background-color: #007bff; #073470;}  /* #0A66C2; */
+.circle-social-buttons a.facebook { background-color: #007bff; #1877F2; }
 .circle-social-buttons a.x { background-color: #1DA1F2; }
 .circle-social-buttons a.github { background-color: #333333; }
 
@@ -400,13 +400,11 @@ body h5 {
 <!-- Header -->
 <header>
     <!-- Logo -->
-    <img src="images/logo.png" alt="Augustine Egar Logo" class="header-logo">
+    <img src="images/logo.png" alt="Logo" class="header-logo">
 
     <!-- Name & Subtitle -->
-    <h1>Augustine Egar, CPP®</h1>
-    <p><h4>Security Management | IT & Cybersecurity</h4>
-        <h5>Technical Expert ISO (TC309)</h5>
-    </p><br>
+    <h4>Augustine Egar, CPP®, ChSP</h4>
+    <h5>Technical Expert ISO (TC309)</h5>
 
 <!-- Top Links -->
  <div class="top-links">
@@ -708,7 +706,7 @@ body h5 {
 <footer>
     <ul class="footer-links">
       <a href="https://photos.app.goo.gl/GhZ67qxnLStXF9uy5">ISO Activities |</a>
-      <a href="https://photos.app.goo.gl/458DkxMvGU4B9CjS9">Training & Certificates |</a>
+      <a href="https://photos.app.goo.gl/458DkxMvGU4B9CjS9">Training |</a>
       <a href="#">About Me</a>
     </ul>
     <h4>&copy; 2026 Microtech | All Rights Reserved</h4>
